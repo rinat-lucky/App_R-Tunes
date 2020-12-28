@@ -1,0 +1,28 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "R-Tunes",
+  "main": "script.js",
+  "scripts": {
+    "build": "webpack --config webpackBuild.config.js",
+    "dev": "webpack serve --config webpackDev.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rinat-lucky/R-Tunes.git"
+  },
+  "author": "Rinat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rinat-lucky/R-Tunes/issues"
+  },
+  "homepage": "https://github.com/rinat-lucky/R-Tunes#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.11.0",
+    "webpack-cli": "^4.3.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
